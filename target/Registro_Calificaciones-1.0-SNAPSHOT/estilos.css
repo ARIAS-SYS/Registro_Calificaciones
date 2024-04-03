@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.dato {
+    width: 50%;
+    margin: 40px auto;
+    padding: 80px 150px;
+    background: #BBBFC4;
+    border: 3px solid #1D283A;
+}
+p {
+    font-size: 20px;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+}
+
+.nuevo {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+.nuevo:hover {
+    background-color: #0056b3; 
+}
+.editar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #0AA11D; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+.editar:hover {
+    background-color: #5BC068; 
+}
+.eliminar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #D12525; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+.eliminar:hover {
+    background-color: #E06D6D; 
+}
+
+.table-style {
+    width: 90%; 
+    margin: 0 50px;
+    border-collapse: collapse; 
+}
+
+
+.table-style th {
+    background-color: #f2f2f2; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+
+.table-style td {
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+.form-container {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+.form-container .nota {
+    width: 50px;
+}
+
+.registro {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 110px;
+    background-color: #BBBFC4; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.registro:hover {
+    background-color: #A19F9D; 
+}
+        
